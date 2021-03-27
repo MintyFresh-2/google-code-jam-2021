@@ -9,3 +9,11 @@ def reversort(L):
             L = L[:i] + L[j:i-1:-1] + L[j+1:]
         cost += j-i+1
     return cost
+
+
+go = True
+while go:
+    inputList = input().split(" ")
+    inputList = [int(i) for i in inputList]
+    print(reversort(inputList))
+    #go = bool(int(input("Continue?:")))
