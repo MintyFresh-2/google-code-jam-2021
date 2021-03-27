@@ -15,4 +15,4 @@ for x in range(0, T):
     X = int(testCase[0])
     Y = int(testCase[1])
     mural = testCase[2]
-    print("Case #" + str(1) + ": "+str(costCalculation(X, Y, mural)))
+    print("Case #" + str(x+1) + ": "+str(costCalculation(X, Y, mural)))
